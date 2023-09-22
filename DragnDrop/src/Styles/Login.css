@@ -1,0 +1,103 @@
+.Lcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-weight: bolder;
+    color: #000;
+    font-family: "DM Sans", sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+span {
+    color: #36454f;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    width: 30%;
+    font-family: "DM Sans", sans-serif;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #36454f;
+}
+
+.inner_form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+input {
+    padding: 8px 10px;
+    font-size: 16px;
+    background-color: #d3d3d3;
+    border: none;
+    outline: none;
+}
+
+
+.error {
+    color: red;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+button {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+    form {
+        width: 50%;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    h1 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    form {
+        width: 90%;
+        font-size: 14px;
+        padding: 20px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    input {
+        font-size: 14px;
+    }
+}
